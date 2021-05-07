@@ -3,24 +3,6 @@ from __future__ import absolute_import
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu May  4 18:36:54 2017
-
-@author: raphaelproux and guillemballesteros
-
-Largely inspired from PicoQuant examples:
-    https://github.com/PicoQuant/PicoQuant-Time-Tagged-File-Format-Demos
-and (in particular, to read the header) from a jupyter notebook
-by tritemio on GitHub:
-    https://gist.github.com/tritemio/734347586bc999f39f9ffe0ac5ba0e66
-
-Please note:
-- this library has been tested only with T2 mode of a Hydraharp v2, but it
-  should work with a Hydraharp v1 or a Picoharp file (written, untested),
-- does not support T3 mode for now (not written), but should be easy to
-  implement
-
-"""
 
 from matplotlib import pyplot as plt
 import numpy as np
